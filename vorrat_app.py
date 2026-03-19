@@ -3,7 +3,7 @@ import pandas as pd
 import os
 
 # Datei-Einstellungen
-DB_FILE = "mein_vorrat.csv"
+DB_FILE = "vorrat_neu.csv"
 
 def daten_laden():
     if os.path.exists(DB_FILE):
